@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Беседки 52 — Пикник ZonE | Аренда беседок в Дзержинске</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/park.png">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title">Беседки 52</span>
+                        <span class="logo-subtitle">Пикник ZonE</span>
+                    </div>
+                </a>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#hero">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#pavilions">Беседки</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="tel:+78001234567" class="btn btn-small">Забронировать</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Герой-секция -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Отдых на природе <span class="highlight">с комфортом</span></h1>
+                <p class="hero-text">Аренда беседок для пикников, корпоративов и семейных праздников в Дзержинске. Уют, чистота и все необходимое для отличного отдыха.</p>
+                <div class="hero-buttons">
+                    <a href="#pavilions" class="btn btn-primary">Выбрать беседку</a>
+                    <a href="#contacts" class="btn btn-secondary">Наши контакты</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают нас</h2>
+            <p class="section-subtitle">Мы создаем идеальные условия для вашего отдыха на природе</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Уютные беседки</h3>
+                    <p>Просторные и комфортабельные беседки на 10-30 человек, оборудованные всем необходимым.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Полная комплектация</h3>
+                    <p>Мангалы, гриль, столы, скамейки, освещение, розетки - все для удобного отдыха.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Живописная природа</h3>
+                    <p>Расположение в зеленой зоне, чистый воздух и ухоженная территория.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Удобная парковка</h3>
+                    <p>Бесплатная охраняемая парковка для всех гостей.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Наши беседки -->
+    <section class="section pavilions" id="pavilions">
+        <div class="container">
+            <h2 class="section-title">Наши беседки</h2>
+            <p class="section-subtitle">Выберите идеальную беседку для вашего мероприятия</p>
+            
+            <div class="pavilion-grid">
+                <div class="pavilion-card">
+                    <div class="pavilion-image">
+                        <img src="img/b1.jpg" alt="Беседка Стандарт">
+                        <span class="pavilion-badge">Популярно</span>
+                    </div>
+                    <div class="pavilion-content">
+                        <h3>Беседка №1</h3>
+                        <p>Комфортная беседка для компании до 35 человек. Идеально подходит для семейных праздников.</p>
+                        <ul class="pavilion-features">
+                            <li><i class="fas fa-users"></i> До 35 человек</li>
+                            <li><i class="fas fa-fire"></i> Мангал включен</li>
+                            <li><i class="fas fa-table"></i> 2 стола + скамейки</li>
+                            <li><i class="fas fa-lightbulb"></i> Освещение</li>
+                        </ul>
+                        <div class="pavilion-price">
+                            <span class="price">от 9000 руб./день</span>
+                            <a href="#contacts" class="btn btn-small">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pavilion-card">
+                    <div class="pavilion-image">
+                        <img src="img/b2.jpg" alt="Беседка Премиум">
+                    </div>
+                    <div class="pavilion-content">
+                        <h3>Беседка №2</h3>
+                        <p>Просторная беседка с зоной отдыха и дополнительными удобствами для компании до 25 человек.</p>
+                        <ul class="pavilion-features">
+                            <li><i class="fas fa-users"></i> До 25 человек</li>
+                            <li><i class="fas fa-fire"></i> Мангал + гриль</li>
+                            <li><i class="fas fa-couch"></i> Зона отдыха</li>
+                            <li><i class="fas fa-plug"></i> Розетки 220В</li>
+                        </ul>
+                        <div class="pavilion-price">
+                            <span class="price">от 7000 руб./день</span>
+                            <a href="#contacts" class="btn btn-small">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pavilion-card">
+                    <div class="pavilion-image">
+                        <img src="img/b3.jpg" alt="Беседка Люкс">
+                    </div>
+                    <div class="pavilion-content">
+                        <h3>Беседка №3</h3>
+                        <p>Большая беседка с полноценной кухней, зоной барбекю и местом для танцев. Для мероприятий до 30+ человек.</p>
+                        <ul class="pavilion-features">
+                            <li><i class="fas fa-users"></i> До 40-60 человек</li>
+                            <li><i class="fas fa-utensils"></i> Кухонная зона</li>
+                            <li><i class="fas fa-music"></i> Место для танцев</li>
+                            <li><i class="fas fa-wifi"></i> Бесплатный Wi-Fi</li>
+                        </ul>
+                        <div class="pavilion-price">
+                            <span class="price">от 12000 руб./день</span>
+                            <a href="#contacts" class="btn btn-small">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="section-title">Дополнительные услуги</h2>
+            <p class="section-subtitle">Сделаем ваш отдых еще комфортнее</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hamburger"></i>
+                    </div>
+                    <h3>Кейтеринг</h3>
+                    <p>Заказ готовых блюд, напитков и закусок. Полный сервис питания для вашего мероприятия.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Музыкальное оборудование</h3>
+                    <p>Аренда колонок, микрофонов и музыкальной аппаратуры для проведения праздников.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Развлечения</h3>
+                    <p>Настольные игры, бадминтон, мячи и другие активные развлечения для детей и взрослых.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3>Холодильное оборудование</h3>
+                    <p>Аренда холодильников и морозильных камер для хранения продуктов и напитков.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Галерея</h2>
+            <p class="section-subtitle">Наша территория и беседки</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="img/g1.jpg" alt="Беседка 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/g2.jpg" alt="Беседка 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/g3.jpg" alt="Беседка 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/g4.jpg" alt="Территория">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="section contacts" id="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты и бронирование</h2>
+            <p class="section-subtitle">Свяжитесь с нами для уточнения деталей и бронирования</p>
+            
+            <div class="contacts-grid">
+                <div class="contact-info">
+                    <h3>Наши контакты</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Адрес</h4>
+                            <p>г. Дзержинск, ул. Лесная, 15</p>
+                            <p class="small-text">(территория парка "Зеленый бор")</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Телефон</h4>
+                            <p><a href="tel:+78001234567">8 (800) 123-45-67</a></p>
+                            <p class="small-text">Ежедневно с 9:00 до 21:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@besedki52.ru">info@besedki52.ru</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Режим работы</h4>
+                            <p>Пн-Вс: 10:00 - 22:00</p>
+                            <p class="small-text">Бронирование доступно круглосуточно</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Заявка на бронирование</h3>
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Ваш телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Ваш email">
+                        </div>
+                        <div class="form-group">
+                            <select id="pavilionType" required>
+                                <option value="" disabled selected>Тип беседки</option>
+                                <option value="standard">Беседка "Стандарт"</option>
+                                <option value="premium">Беседка "Премиум"</option>
+                                <option value="luxury">Беседка "Люкс"</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder="Дополнительная информация (количество гостей, особые пожелания)"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-title">Беседки 52</span>
+                            <span class="logo-subtitle">Пикник ZonE</span>
+                        </div>
+                    </a>
+                    <p class="footer-text">Отдых на природе с комфортом в Дзержинске. Аренда беседок для любых мероприятий.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Меню</h4>
+                    <ul>
+                        <li><a href="#hero">Главная</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#pavilions">Беседки</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Мы в соцсетях</h4>
+                    <div class="social-icons">
+                        <a href="https://vk.com/besedki_52"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <p class="footer-text">Подписывайтесь, чтобы быть в курсе акций и новостей!</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 "Беседки 52 — Пикник ZonE". Все права защищены.</p>
+                <p>г. Дзержинск, ул. Лесная, 15 | <a href="tel:+78001234567">+7 (952) 455-10-40</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
