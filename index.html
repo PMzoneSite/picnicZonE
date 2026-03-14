@@ -37,7 +37,7 @@
                     <li><a href="#services">Услуги</a></li>
                     <li><a href="#gallery">Галерея</a></li>
                     <li><a href="#contacts">Контакты</a></li>
-                    <li><a href="tel:+78001234567" class="btn btn-small">Забронировать</a></li>
+                    <li><button type="button" class="btn btn-small btn-book btn-nav" data-id="1" data-name="Беседка №1">Забронировать</button></li>
                 </ul>
             </nav>
         </div>
@@ -106,7 +106,7 @@
             <p class="section-subtitle">Выберите идеальную беседку для вашего мероприятия</p>
             
             <div class="pavilion-grid">
-                <div class="pavilion-card">
+                <div class="pavilion-card" data-id="1" data-name="Беседка №1">
                     <div class="pavilion-image">
                         <img src="img/b1.jpg" alt="Беседка Стандарт">
                         <span class="pavilion-badge">Популярно</span>
@@ -115,19 +115,19 @@
                         <h3>Беседка №1</h3>
                         <p>Комфортная беседка для компании до 35 человек. Идеально подходит для семейных праздников.</p>
                         <ul class="pavilion-features">
+                            <li><i class="fas fa-ruler-combined"></i> 50м²</li>
                             <li><i class="fas fa-users"></i> До 35 человек</li>
                             <li><i class="fas fa-fire"></i> Мангал включен</li>
                             <li><i class="fas fa-table"></i> 2 стола + скамейки</li>
-                            <li><i class="fas fa-lightbulb"></i> Освещение</li>
                         </ul>
                         <div class="pavilion-price">
-                            <span class="price">от 9000 руб./день</span>
-                            <a href="#contacts" class="btn btn-small">Забронировать</a>
+                            <span class="price">от 9000 руб./сутки</span>
+                            <button type="button" class="btn btn-small btn-book" data-id="1" data-name="Беседка №1">Забронировать</button>
                         </div>
                     </div>
                 </div>
                 
-                <div class="pavilion-card">
+                <div class="pavilion-card" data-id="2" data-name="Беседка №2">
                     <div class="pavilion-image">
                         <img src="img/b2.jpg" alt="Беседка Премиум">
                     </div>
@@ -135,19 +135,19 @@
                         <h3>Беседка №2</h3>
                         <p>Просторная беседка с зоной отдыха и дополнительными удобствами для компании до 25 человек.</p>
                         <ul class="pavilion-features">
+                            <li><i class="fas fa-ruler-combined"></i> 40м²</li>
                             <li><i class="fas fa-users"></i> До 25 человек</li>
                             <li><i class="fas fa-fire"></i> Мангал + гриль</li>
                             <li><i class="fas fa-couch"></i> Зона отдыха</li>
-                            <li><i class="fas fa-plug"></i> Розетки 220В</li>
                         </ul>
                         <div class="pavilion-price">
-                            <span class="price">от 7000 руб./день</span>
-                            <a href="#contacts" class="btn btn-small">Забронировать</a>
+                            <span class="price">от 7000 руб./сутки</span>
+                            <button type="button" class="btn btn-small btn-book" data-id="2" data-name="Беседка №2">Забронировать</button>
                         </div>
                     </div>
                 </div>
                 
-                <div class="pavilion-card">
+                <div class="pavilion-card" data-id="3" data-name="Беседка №3">
                     <div class="pavilion-image">
                         <img src="img/b3.jpg" alt="Беседка Люкс">
                     </div>
@@ -155,17 +155,138 @@
                         <h3>Беседка №3</h3>
                         <p>Большая беседка с полноценной кухней, зоной барбекю и местом для танцев. Для мероприятий до 30+ человек.</p>
                         <ul class="pavilion-features">
+                            <li><i class="fas fa-ruler-combined"></i> 60м²</li>
                             <li><i class="fas fa-users"></i> До 40-60 человек</li>
                             <li><i class="fas fa-utensils"></i> Кухонная зона</li>
                             <li><i class="fas fa-music"></i> Место для танцев</li>
-                            <li><i class="fas fa-wifi"></i> Бесплатный Wi-Fi</li>
                         </ul>
                         <div class="pavilion-price">
-                            <span class="price">от 12000 руб./день</span>
-                            <a href="#contacts" class="btn btn-small">Забронировать</a>
+                            <span class="price">от 12000 руб./сутки</span>
+                            <button type="button" class="btn btn-small btn-book" data-id="3" data-name="Беседка №3">Забронировать</button>
                         </div>
                     </div>
                 </div>
+                
+                <div class="pavilion-card" data-id="4" data-name="Беседка №4 Роща">
+                    <div class="pavilion-image">
+                        <img src="img/b4.jpg" alt="Беседка Роща">
+                    </div>
+                    <div class="pavilion-content">
+                        <h3>Беседка №4</h3>
+                        <p>Уютная беседка среди деревьев для небольшой компании. Идеально для романтического ужина или встречи друзей.</p>
+                        <ul class="pavilion-features">
+                            <li><i class="fas fa-users"></i> До 15 человек</li>
+                            <li><i class="fas fa-fire"></i> Мангал включен</li>
+                            <li><i class="fas fa-lightbulb"></i> Освещение</li>
+                        </ul>
+                        <div class="pavilion-price">
+                            <span class="price">от 6000 руб./сутки</span>
+                            <button type="button" class="btn btn-small btn-book" data-id="4" data-name="Беседка №4 Роща">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pavilion-card" data-id="5" data-name="Беседка №5 Гнёздышко">
+                    <div class="pavilion-image">
+                        <img src="img/b5.jpg" alt="Беседка Гнёздышко">
+                    </div>
+                    <div class="pavilion-content">
+                        <h3>Беседка №5</h3>
+                        <p>Компактная семейная беседка. Отлично подходит для отдыха с детьми.</p>
+                        <ul class="pavilion-features">
+                            <li><i class="fas fa-users"></i> До 15 человек</li>
+                            <li><i class="fas fa-fire"></i> Мангал</li>
+                            <li><i class="fas fa-table"></i> Стол и скамейки</li>
+                        </ul>
+                        <div class="pavilion-price">
+                            <span class="price">от 6000 руб./сутки</span>
+                            <button type="button" class="btn btn-small btn-book" data-id="5" data-name="Беседка №5 Гнёздышко">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pavilion-card" data-id="6" data-name="Беседка №6 Дубравка">
+                    <div class="pavilion-image">
+                        <img src="img/b6.jpg" alt="Беседка Дубравка">
+                    </div>
+                    <div class="pavilion-content">
+                        <h3>Беседка №6</h3>
+                        <p>Просторная беседка для корпоративов и праздников. Зона барбекю и комфортный отдых.</p>
+                        <ul class="pavilion-features">
+                            <li><i class="fas fa-users"></i> До 25 человек</li>
+                            <li><i class="fas fa-fire"></i> Мангал</li>
+                            <li><i class="fas fa-plug"></i> Розетки 220В</li>
+                        </ul>
+                        <div class="pavilion-price">
+                            <span class="price">от 7000 руб./сутки</span>
+                            <button type="button" class="btn btn-small btn-book" data-id="6" data-name="Беседка №6 Дубравка">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pavilion-card" data-id="7" data-name="Беседка №7 Теремок">
+                    <div class="pavilion-image">
+                        <img src="img/b7.jpg" alt="Беседка Теремок">
+                    </div>
+                    <div class="pavilion-content">
+                        <h3>Беседка №7</h3>
+                        <p>Стильная беседка в традиционном стиле. Для свадеб и торжественных мероприятий.</p>
+                        <ul class="pavilion-features">
+                            <li><i class="fas fa-users"></i> До 35 человек</li>
+                            <li><i class="fas fa-utensils"></i> Кухонная зона</li>
+                            <li><i class="fas fa-wifi"></i> Wi-Fi</li>
+                        </ul>
+                        <div class="pavilion-price">
+                            <span class="price">от 9000 руб./сутки</span>
+                            <button type="button" class="btn btn-small btn-book" data-id="7" data-name="Беседка №7 Теремок">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pavilion-card" data-id="8" data-name="Беседка №8 Лесная">
+                    <div class="pavilion-image">
+                        <img src="img/b8.jpg" alt="Беседка Лесная">
+                    </div>
+                    <div class="pavilion-content">
+                        <h3>Беседка №8</h3>
+                        <p>Уединённая беседка в лесной глуши. Атмосфера спокойствия и единения с природой.</p>
+                        <ul class="pavilion-features">
+                            <li><i class="fas fa-users"></i> До 15 человек</li>
+                            <li><i class="fas fa-fire"></i> Мангал</li>
+                            <li><i class="fas fa-lightbulb"></i> Освещение</li>
+                        </ul>
+                        <div class="pavilion-price">
+                            <span class="price">6500 руб./сутки</span>
+                            <button type="button" class="btn btn-small btn-book" data-id="8" data-name="Беседка №8 Лесная">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pavilion-card" data-id="9" data-name="Беседка №9 Речная">
+                    <div class="pavilion-image">
+                        <img src="img/b9.jpg" alt="Беседка Речная">
+                    </div>
+                    <div class="pavilion-content">
+                        <h3>Беседка №9 «Речная»</h3>
+                        <p>В банкетном зале имеется: Кондиционер, музыка, зона для танцпола, розетки, собственная зона барбекю с освещением, чайник, микроволновая печь, холодильник..</p>
+                        <ul class="pavilion-features">
+                            <li><i class="fas fa-users"></i> До 40 человек</li>
+                        </ul>
+                        <div class="pavilion-price">
+                            <span class="price">20000 руб./сутки</span>
+                            <button type="button" class="btn btn-small btn-book" data-id="9" data-name="Беседка №9 Речная">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+                
+               
+                
+               
+                
+              
+                
+               
+    
             </div>
         </div>
     </section>
@@ -238,23 +359,12 @@
     <!-- Контакты -->
     <section class="section contacts" id="contacts">
         <div class="container">
-            <h2 class="section-title">Контакты и бронирование</h2>
+            <h2 class="section-title">Контакты</h2>
             <p class="section-subtitle">Свяжитесь с нами для уточнения деталей и бронирования</p>
             
-            <div class="contacts-grid">
+            <div class="contacts-grid contacts-only">
                 <div class="contact-info">
                     <h3>Наши контакты</h3>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h4>Адрес</h4>
-                            <p>г. Дзержинск, ул. Лесная, 15</p>
-                            <p class="small-text">(территория парка "Зеленый бор")</p>
-                        </div>
-                    </div>
                     
                     <div class="contact-item">
                         <div class="contact-icon">
@@ -262,8 +372,7 @@
                         </div>
                         <div class="contact-text">
                             <h4>Телефон</h4>
-                            <p><a href="tel:+78001234567">8 (800) 123-45-67</a></p>
-                            <p class="small-text">Ежедневно с 9:00 до 21:00</p>
+                            <p><a href="tel:+78001234567">+7 (XXX) XXX-XX-XX</a></p>
                         </div>
                     </div>
                     
@@ -273,7 +382,17 @@
                         </div>
                         <div class="contact-text">
                             <h4>Email</h4>
-                            <p><a href="mailto:info@besedki52.ru">info@besedki52.ru</a></p>
+                            <p><a href="mailto:info@example.com">info@example.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Адрес</h4>
+                            <p>г. Москва, ул. Примерная, д. 1</p>
                         </div>
                     </div>
                     
@@ -282,41 +401,20 @@
                             <i class="fas fa-clock"></i>
                         </div>
                         <div class="contact-text">
-                            <h4>Режим работы</h4>
-                            <p>Пн-Вс: 10:00 - 22:00</p>
-                            <p class="small-text">Бронирование доступно круглосуточно</p>
+                            <h4>Часы работы</h4>
+                            <p>Круглосуточно</p>
                         </div>
                     </div>
-                </div>
-                
-                <div class="contact-form">
-                    <h3>Заявка на бронирование</h3>
-                    <form id="bookingForm">
-                        <div class="form-group">
-                            <input type="text" id="name" placeholder="Ваше имя" required>
+                    
+                    <div class="contact-item contact-social">
+                        <h4>Социальные сети</h4>
+                        <div class="social-icons">
+                            <a href="#" aria-label="ВКонтакте"><i class="fab fa-vk"></i></a>
+                            <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                         </div>
-                        <div class="form-group">
-                            <input type="tel" id="phone" placeholder="Ваш телефон" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" placeholder="Ваш email">
-                        </div>
-                        <div class="form-group">
-                            <select id="pavilionType" required>
-                                <option value="" disabled selected>Тип беседки</option>
-                                <option value="standard">Беседка "Стандарт"</option>
-                                <option value="premium">Беседка "Премиум"</option>
-                                <option value="luxury">Беседка "Люкс"</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <input type="date" id="date" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" rows="4" placeholder="Дополнительная информация (количество гостей, особые пожелания)"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -369,6 +467,62 @@
             </div>
         </div>
     </footer>
+
+    <!-- Модальное окно бронирования -->
+    <div class="modal-overlay" id="bookingModal" aria-hidden="true">
+        <div class="modal" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+            <button type="button" class="modal-close" id="modalClose" aria-label="Закрыть окно">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2 class="modal-title" id="modalTitle">Бронирование беседки</h2>
+            <p class="modal-subtitle" id="modalSubtitle"></p>
+            
+            <form id="bookingModalForm" class="booking-form">
+                <input type="hidden" id="bookingPavilionId" name="id_besedki">
+                <input type="hidden" id="bookingPavilionName" name="nazvanie_besedki">
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="dateStart">Дата начала *</label>
+                        <input type="date" id="dateStart" name="data_nachala" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dateEnd">Дата окончания *</label>
+                        <input type="date" id="dateEnd" name="data_okonchaniya" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="timeStart">Время начала *</label>
+                        <input type="time" id="timeStart" name="vremya_nachala" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="timeEnd">Время окончания *</label>
+                        <input type="time" id="timeEnd" name="vremya_okonchaniya" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="clientName">Ваше имя *</label>
+                    <input type="text" id="clientName" name="imya_klienta" placeholder="Введите ваше имя" required maxlength="100">
+                    <span class="form-error" id="nameError"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="clientPhone">Номер телефона *</label>
+                    <input type="tel" id="clientPhone" name="telefon_klienta" placeholder="+7 (___) ___-__-__" required>
+                    <span class="form-error" id="phoneError"></span>
+                </div>
+                
+                <div class="form-status" id="formStatus" aria-live="polite"></div>
+                
+                <button type="submit" class="btn btn-primary btn-block" id="submitBookingBtn">
+                    Отправить заявку
+                </button>
+            </form>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
